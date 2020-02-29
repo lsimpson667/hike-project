@@ -74,7 +74,23 @@ a:hover {
 
 
 /* articles start here */
+.articles-container {
 
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    justify-content: space-around;
+    /* margin-left: 20px;
+    margin-right: 20px; */    
+}
+
+.recipes  {
+    margin-left: 80px;
+}
+
+.backpacks  {
+    margin-right: 80px;
+}
 
 
 /* Gear starts here */
