@@ -1,101 +1,274 @@
 body {
     font-family: 'Muli';
-    /* background-color:#333a35; */
+    background-color:#333a35;
 }
 
 /* navigation bar starts here */
-navbar {
+nav {
     background-color:#333a35;
     display: flex;
-    /* justify-content: space-between; */
-    padding: 10px 500px 10px 20px;
-    
+    align-content   
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    margin-top: 10px;
-    
+    font-weight: bold;    
 }
-a:hover {
+nav a:hover {
     color: #eca419;
   }
 
-.logo {
-      width: 60px;
+nav .logo {
+      width: 55px;
+      padding-left: 15px;
   }
-.fa {
+nav i {
     color: #eca419;
+
+}
+nav i:hover {
+    color:white;
 }
 
-.logo-container {
-    /* background-color: pink; */
+nav .logo-container {
+    align-content: center;
+    align-items: center;
+
 }
 
-.tab-container {
-    /* background-color: green; */
-    width: 80vw;
+nav .tab-container {
+    width: 700px;
     justify-content: space-evenly;
     display: flex;
- 
+    align-items: center;
+    padding-bottom: 10px;
 
 }
 
-.icon-container {
-    width: 20vw;
-    /* background-color: yellow; */
+nav .icon-container {
+    width: 255px;
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    padding-bottom: 10px;
+    font-size: 18pt;
 }
 
 
-/* features start here */
-/* .features-container {
+/* features start here---------------------------------------------------------------- */
+.features-container {
     color: white;
     flex-direction: row;
     display: flex;
+    
+
 }
-.left-container {
-    background-color: red;
+.features-container .left-container {
     background-image: url(../image/images-for-hike-project/desert780x477.jpg);
-
-
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 981px;
+    text-decoration-color: #eca419;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 46px;
+    font-weight: bold;
+    
 }
-.right-container {
-    background-color: blue;
-    background-image: url(),
+.features-container .right-container {
+    background-repeat: no-repeat;
+    width: 490px;
+    flex-direction: column;
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+}
 
-} */
+.features-container .top-right-container {
+    background-image: url(../image/images-for-hike-project/stream420x240.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.features-container .bottom-right-container {
+    background-image: url(../image/images-for-hike-project/relax420x237.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.features-container .left-container-text {
+    border-bottom: 2px solid #eca419;
+    width:800px;
+    text-align: center;
+    padding-bottom: 80px;
+}
 
 
-
-/* articles start here */
+/* articles start here--------------------------------- */
 .articles-container {
 
     display: flex;
     background-color: white;
     justify-content: center;
     justify-content: space-around;
-    /* margin-left: 20px;
-    margin-right: 20px; */    
 }
 
-.recipes  {
+.articles-container .recipes  {
     margin-left: 80px;
 }
 
-.backpacks  {
+.articles-container .backpacks  {
     margin-right: 80px;
 }
 
+/* Gear starts here -------------------------------------*/
+.gear-main-container {
+    background-color: #dbccb6;
+    height: 1800px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1470px;
 
-/* Gear starts here */
+
+}
+.gear-title {
+    margin: 0 0 -10px 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #eca419;
+    text-align: center;
+    padding:0;
+    border: none;
+}
+.gear-categories {
+    height: 1215px;
+    width: 1050px;
+    text-align: left;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    justify-content: space-between;   
+    padding: 50px;
+
+}
+.gear-chairs { 
+    height: 300px;
+    background-color: white;
+    display: flex;
+    margin:0;
+    border-top: none;
+
+}
+.gear-cooksets {
+    height: 300px;
+    background-color: white;
+    display: flex;
+
+}
+.gear-hats {
+    height: 300px;
+    background-color: white;
+    display: flex;
+
+}
+.gear-candles {
+    height: 300px;
+    background-color: white;
+    display: flex;
+
+}
+
+.gear-chairs-image {
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    background-image: url(../image/images-for-hike-project/chairs.jpg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    margin: 40px;
+}
+
+.gear-cookset-image {
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    background-image: url(../image/images-for-hike-project/cooksets.jpg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    margin: 40px;
+
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.gear-hats-image {
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    background-image: url(../image/images-for-hike-project/hats.jpg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    margin: 40px;
 
 
+}
+.gear-candles-image {
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    background-image: url(../image/images-for-hike-project/candles.jpg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    margin: 40px;
+    position: relative;
+}
+
+.gear-text {
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+
+}
+.g-subheading {
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 48px
+
+}
+.g-description {
+    padding-right: 20px;
+    font-weight: ;
+    font-size: 18.5px;
+    margin-top: 0;
+}
+
+.g-badge {
+    position: absolute;
+    top: 170px;
+}
 
  
 
