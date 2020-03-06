@@ -119,19 +119,45 @@ nav .icon-container {
 
 /* articles start here--------------------------------- */
 .articles-container {
-
     display: flex;
     background-color: white;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+    width: 1470px;
+}
+.articles-container .recipes-container  {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    justify-content: space-around;
+    align-items: center;
+    padding-left: 120px;
+        /* margin-left: 80px; */
 }
-
-.articles-container .recipes  {
-    margin-left: 80px;
+.articles-container .pitch-tent-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    /* margin-right: 80px; */
 }
-
-.articles-container .backpacks  {
-    margin-right: 80px;
+.articles-container .candles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 80px; */
+}
+.articles-container .backpacks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+    padding-top: 20px;
+    /* margin-right: 80px; */
 }
 
 /* Gear starts here -------------------------------------*/
