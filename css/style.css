@@ -4,6 +4,7 @@ body {
 }
 
 /* navigation bar starts here */
+
 nav {
     background-color:#333a35;
     display: flex;
@@ -57,7 +58,8 @@ nav .icon-container {
 }
 
 
-/* features start here---------------------------------------------------------------- */
+/* features start here -- */
+
 .features-container {
     color: white;
     flex-direction: row;
@@ -117,14 +119,14 @@ nav .icon-container {
 }
 
 
-/* articles start here--------------------------------- */
+/* articles start here -- */
+
 .articles-container {
     display: flex;
     background-color: white;
-    /* justify-content: center; */
     align-items: center;
     justify-content: space-between;
-    height: 350px;
+    height: 340px;
     width: 1470px;
 }
 .articles-container .recipes-container  {
@@ -132,8 +134,9 @@ nav .icon-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 120px;
-        /* margin-left: 80px; */
+    padding-left: 165px;
+    font-weight: bold;
+    width: 400px;
 }
 .articles-container .pitch-tent-container  {
     display: flex;
@@ -141,26 +144,38 @@ nav .icon-container {
     justify-content: center;
     align-items: center;
     padding-top: 20px;
-    /* margin-right: 80px; */
+    font-weight: bold;
+    width: 400px;
+
+
 }
 .articles-container .candles-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-right: 80px; */
+    font-weight: bold;
+    width: 400px;
+
+
+
 }
 .articles-container .backpacks-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 120px;
+    padding-right: 165px;
     padding-top: 20px;
-    /* margin-right: 80px; */
+    font-weight: bold;
+    width: 400px;
+
+
+
 }
 
-/* Gear starts here -------------------------------------*/
+/* Gear starts here --*/
+
 .gear-main-container {
     background-color: #dbccb6;
     height: 1800px;
@@ -169,7 +184,6 @@ nav .icon-container {
     align-items: center;
     flex-direction: column;
     width: 1470px;
-
 
 }
 .gear-title {
@@ -286,7 +300,6 @@ nav .icon-container {
 }
 .g-description {
     padding-right: 20px;
-    font-weight: ;
     font-size: 18.5px;
     margin-top: 0;
 }
