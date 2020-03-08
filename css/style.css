@@ -82,6 +82,7 @@ nav .icon-container {
 }
 .features-container .right-container {
     background-repeat: no-repeat;
+
     width: 490px;
     flex-direction: column;
     display: flex;
@@ -126,7 +127,7 @@ nav .icon-container {
     background-color: white;
     align-items: center;
     justify-content: space-between;
-    height: 340px;
+    height: 370px;
     width: 1470px;
 }
 .articles-container .recipes-container  {
@@ -134,10 +135,21 @@ nav .icon-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 165px;
+    padding-left: 40px;
     font-weight: bold;
     width: 400px;
 }
+.articles-recipe-image {
+    background-color: purple;
+    width:340px;
+    height: 230px;
+}
+.articles-container img {
+    width: 100%;
+    height: 100%;
+
+}
+
 .articles-container .pitch-tent-container  {
     display: flex;
     flex-direction: column;
@@ -146,9 +158,14 @@ nav .icon-container {
     padding-top: 20px;
     font-weight: bold;
     width: 400px;
-
+}
+.articles-tent-image {
+    background-color: green;
+    width:340px;
+    height: 230px;
 
 }
+
 .articles-container .candles-container {
     display: flex;
     flex-direction: column;
@@ -156,21 +173,28 @@ nav .icon-container {
     align-items: center;
     font-weight: bold;
     width: 400px;
-
-
+}
+.articles-candles-image {
+    background-color: purple;
+    width:340px;
+    height: 230px;
 
 }
+
 .articles-container .backpacks-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 165px;
+    padding-right: 40px;
     padding-top: 20px;
     font-weight: bold;
     width: 400px;
-
-
+}
+.articles-backpacks-image {
+    background-color: purple;
+    width:340px;
+    height: 230px;
 
 }
 
