@@ -8,7 +8,6 @@ body {
 nav {
     background-color:#333a35;
     display: flex;
-    align-content   
 }
 
 nav a {
@@ -82,7 +81,6 @@ nav .icon-container {
 }
 .features-container .right-container {
     background-repeat: no-repeat;
-
     width: 490px;
     flex-direction: column;
     display: flex;
@@ -97,8 +95,8 @@ nav .icon-container {
     background-size: cover;
     height: 300px;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
+    padding-left: 50px;
 }
 
 .features-container .bottom-right-container {
@@ -108,8 +106,8 @@ nav .icon-container {
     background-size: cover;
     height: 300px;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
+    padding-left: 50px;
 }
 
 .features-container .left-container-text {
@@ -127,16 +125,15 @@ nav .icon-container {
     background-color: white;
     align-items: center;
     justify-content: space-between;
-    height: 370px;
+    height: 400px;
     width: 1470px;
 }
 .articles-container .recipes-container  {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-left: 40px;
     font-weight: bold;
+    font-size: 22px;
     width: 400px;
 }
 .articles-recipe-image {
@@ -149,14 +146,27 @@ nav .icon-container {
     height: 100%;
 
 }
+.articles-recipe-caption {
+    padding-left: 30px;
+}
+.articles-tent-caption {
+    padding-right: 40px;
+}
+.articles-candles-caption {
+
+}
+.articles-backpack-caption {
+    padding-left: 30px;
+}
 
 .articles-container .pitch-tent-container  {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 27px;
     font-weight: bold;
+    font-size: 22px;
     width: 400px;
 }
 .articles-tent-image {
@@ -172,6 +182,7 @@ nav .icon-container {
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    font-size: 22px;
     width: 400px;
 }
 .articles-candles-image {
@@ -184,11 +195,10 @@ nav .icon-container {
 .articles-container .backpacks-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-right: 40px;
-    padding-top: 20px;
+    padding-top: 27px;
     font-weight: bold;
+    font-size: 22px;
     width: 400px;
 }
 .articles-backpacks-image {
@@ -260,7 +270,6 @@ nav .icon-container {
 
 .gear-chairs-image {
     width: 400px;
-    justify-content: center;
     display: flex;
     background-image: url(../image/images-for-hike-project/chairs.jpg); 
     background-repeat: no-repeat;
